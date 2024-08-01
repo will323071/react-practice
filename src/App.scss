@@ -37,7 +37,7 @@ $gray: rgb(160, 160, 160);
 }
 
 section {
-  @include flex($wrap: wrap, $gap: 20px);
+  @include flex($justify: center, $align: center, $wrap: wrap, $gap: 20px);
   padding: 20px 40px;
 }
 
