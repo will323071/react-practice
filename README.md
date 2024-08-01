@@ -5,24 +5,24 @@
 
 ## 학습 목표
 
-    1. 이전 과제에서 작성한 SCSS 코드를 Styled-Components를 사용하여 리팩토링할 수 있다.
-    2. Styled-Components을 사용하는 방법에 대해 이해한다.
-    3. Styled-Components를 사용하는 경우의 장단점에 대해 이해한다.
-    4. Styled-Components를 재사용 하는 방법에 대해 알고있다.
-    5. Styled-Components에 `props`를 전달하여 원하는 스타일을 지정할 수 있다.
+1. 이전 과제에서 작성한 SCSS 코드를 Styled-Components를 사용하여 리팩토링할 수 있다.
+2. Styled-Components을 사용하는 방법에 대해 이해한다.
+3. Styled-Components를 사용하는 경우의 장단점에 대해 이해한다.
+4. Styled-Components를 재사용 하는 방법에 대해 알고있다.
+5. Styled-Components에 `props`를 전달하여 원하는 스타일을 지정할 수 있다.
 
 <br/>
 
 ## 복습할 개념 체크 리스트
 
-    - [ ]  **Styled-Components을 사용하는 방법에 대해 이해한다.**
-    설명: Styled-Components을 사용하는 방법에 대해 복습하세요.
-    - [ ]  **Styled-Components를 사용하는 경우의 장단점에 대해 이해한다.**
-    설명: Styled-Components를 사용하는 경우의 장단점에 대해 복습하세요.
-    - [ ]  **Styled-Components를 재사용 하는 방법에 대해 알고있다.**
-    설명: Styled-Components를 재사용 하는 방법에 대해 복습하세요.
-    - [ ]  **Styled-Components에 `props`를 전달하여 원하는 스타일을 지정할 수 있다.**
-    설명: Styled-Components에 `props`를 전달하여 원하는 스타일을 지정하는 방법에 대해 복습하세요.
+- [ ] **Styled-Components을 사용하는 방법에 대해 이해한다.**
+      <br/>설명: Styled-Components을 사용하는 방법에 대해 복습하세요.
+- [ ] **Styled-Components를 사용하는 경우의 장단점에 대해 이해한다.**
+      <br/>설명: Styled-Components를 사용하는 경우의 장단점에 대해 복습하세요.
+- [ ] **Styled-Components를 재사용 하는 방법에 대해 알고있다.**
+      <br/>설명: Styled-Components를 재사용 하는 방법에 대해 복습하세요.
+- [ ] **Styled-Components에 `props`를 전달하여 원하는 스타일을 지정할 수 있다.**
+      <br/>설명: Styled-Components에 `props`를 전달하여 원하는 스타일을 지정하는 방법에 대해 복습하세요.
 
 <br/>
 
