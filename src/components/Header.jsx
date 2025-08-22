@@ -1,12 +1,25 @@
-export default function Header() {
-  return (
-    <header className="header-container">
-      <h1>OZ코딩스쿨</h1>
-      <ul className="menu-container">
-        <li>로그인</li>
-        <li>회원가입</li>
-        <li>내클래스</li>
-      </ul>
-    </header>
-  );
+export default function Header({data}) {
+    // 일출일몰시간 변환
+    const formatTime = (time) => {
+        const date = new Date(time * 1000);
+        const hours = date.getHours().toString().padStart(2, "0");
+        const minutes = date.getMinutes().toString().padStart(2, "0");
+        return `${hours}:${minutes}`;
+    };
+    
+    return (
+        <>
+        {data && <div>{data.city.name}</div>}
+        {data && (
+            <>
+            <div>
+                {data.city.name}의 일출 시간 {formatTime(data.city.sunrise)}
+            </div>
+            <div>
+                {data.city.name}의 일몰 시간 {formatTime(data.city.sunset)}
+            </div>
+            </>
+        )}
+        </>
+    );
 }
